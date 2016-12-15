@@ -1,0 +1,14 @@
+User
+db.users.insert({userName:'Tom',userPwd:'111',userRole:{roleNmae:'职员',preState:0,postState:1}});
+
+Role
+db.roles.insert({roleNmae:'职员',preState:0,postState:1});
+
+holidayTypes
+db.holidayTypes.insert({holidayName:'病假',holidayLength:3});
+
+notes
+db.notes.insert({user:{userName:'Tom',userPwd:'111',userRole:{roleNmae:'manager',preState:20,postState:30}},{holidayName:'病假',holidayLength:3},startTime:'2016-12-14',timeLength:3,reason:'我病了',curState:10,highState:30,});
+
+cardRecords
+db.cardRecords.insert({{userName:'Tom',userPwd:'111',userRole:{roleNmae:'职员',preState:0,postState:1}},enterTime:'2016-12-14-09-02-03',leftTime:'2016-12-14-19-12-13'});

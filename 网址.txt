@@ -10,3 +10,5 @@ http://www.html2jade.org/
 
 http://clouduv.cn/
 http://www.zimuzu.tv/
+
+http://zh.hortonworks.com/wp-content/uploads/2015/07/Import_on_VMware_7_20_2015.pdf
